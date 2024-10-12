@@ -2,7 +2,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-C:\Users\mathe\aprenderMaisJava\CursosAlura\src\br\com\mathew\aplicandoAOrientacaoAObjeto\desafioMinhasMusicas
 
 ### Eclipse ###
 .apt_generated
@@ -28,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Pasta desafioMinhasMusicas
+CursosAlura/src/br/com/mathew/aplicandoAOrientacaoAObjeto/desafioMinhasMusicas/
