@@ -1,4 +1,4 @@
-package br.com.mathew.aplicandoAOrientacaoAObjeto.minhasMusicas.model;
+package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.model;
 
 public class Musica extends Audio{
 

@@ -1,8 +1,8 @@
-package br.com.mathew.aplicandoAOrientacaoAObjeto.minhasMusicas.principal;
+package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.principal;
 
-import br.com.mathew.aplicandoAOrientacaoAObjeto.minhasMusicas.model.MinhasFavoritas;
-import br.com.mathew.aplicandoAOrientacaoAObjeto.minhasMusicas.model.Musica;
-import br.com.mathew.aplicandoAOrientacaoAObjeto.minhasMusicas.model.Podcast;
+import br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.model.MinhasFavoritas;
+import br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.model.Musica;
+import br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.model.Podcast;
 
 public class Principal {
     public static void main(String[] args) {
