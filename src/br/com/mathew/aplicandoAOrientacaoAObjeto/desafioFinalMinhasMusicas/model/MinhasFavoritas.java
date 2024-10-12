@@ -1,4 +1,4 @@
-package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.model;
+package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioFinalMinhasMusicas.model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.model;
+package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioFinalMinhasMusicas.model;
 
 public class Audio {
 

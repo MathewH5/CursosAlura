@@ -1,4 +1,4 @@
-package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioMinhasMusicas.model;
+package br.com.mathew.aplicandoAOrientacaoAObjeto.desafioFinalMinhasMusicas.model;
 
 public class Podcast extends Audio{
     private String host;
