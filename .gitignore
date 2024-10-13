@@ -29,5 +29,4 @@ bin/
 .DS_Store
 
 # Pasta listasColecoes
-src/br/com/mathew/aplicandoAOrientacaoAObjeto/listasColecoes/src/
 src/br/com/mathew/listasEColecoesDeDados/desafio1/
