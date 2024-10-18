@@ -14,20 +14,19 @@ public class TestaAluno {
         alunos.add("Samuel Martin");
         alunos.add("Samuel Martin");
         System.out.println(alunos);
-
-        boolean pauloExiste = alunos.contains("Paulo");
-        System.out.println(pauloExiste);
-
         for (String aluno : alunos) {
             System.out.println(aluno);
         }
+
+        boolean pauloExiste = alunos.contains("Paulo");
+        System.out.println(pauloExiste);
+        alunos.remove("rafa lucas");
 
         System.out.println(alunos.size());
 
         alunos.forEach(aluno -> {
             System.out.println(aluno);
         });
-
 
     }
 }
