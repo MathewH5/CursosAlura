@@ -17,7 +17,7 @@ public class Principal {
         pessoa2.setNome("lucas");
         pessoa2.setIdade(16);
 
-        pessoa3.setNome("NEy");
+        pessoa3.setNome("NEYMAR");
         pessoa3.setIdade(21);
 
         listaDePessoas.add(pessoa);
