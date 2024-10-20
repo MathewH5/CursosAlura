@@ -56,6 +56,5 @@ public class Principal {
         }
         System.out.printf("\nO restante do crédito é de: %.2f%n", cartaoDeCredito.getSaldo());
         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
-
     }
 }

@@ -1,6 +1,7 @@
 package br.com.mathew.listasEColecoesDeDados.desafioFinal.model;
 
 public class Compra {
+
     private String produto;
     private double preco;
     private int quantidade;
