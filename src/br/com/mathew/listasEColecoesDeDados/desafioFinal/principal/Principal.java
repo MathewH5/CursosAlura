@@ -1,7 +1,8 @@
-package br.com.mathew.List.desafioFInal.principal;
+package br.com.mathew.listasEColecoesDeDados.desafioFinal.principal;
 
-import br.com.mathew.List.desafioFInal.model.CartaoDeCredito;
-import br.com.mathew.List.desafioFInal.model.Compra;
+import br.com.mathew.listasEColecoesDeDados.desafioFinal.model.CartaoDeCredito;
+import br.com.mathew.listasEColecoesDeDados.desafioFinal.model.Compra;
+
 
 import java.util.Scanner;
 
@@ -29,10 +30,10 @@ public class Principal {
             compra.setQuantidade(quantidade);
 
             if (cartaoDeCredito.lancaCompra(compra)){
-                System.out.println("compra efetuado com sucesso!\nSEU SALDO RESTANTE É DE " + cartaoDeCredito.getSaldo());
+                System.out.printf("compra efetuado com sucesso!\nSEU SALDO RESTANTE É DE %.2f%n", cartaoDeCredito.getSaldo());
             }
             else {
-                System.out.println("compra fracasada. SEM SALDO!\nSEU SALDO RESTANTE É DE " + cartaoDeCredito.getSaldo());
+                System.out.printf("Compra fracassada. SEM SALDO!\nSEU SALDO RESTANTE É DE %.2f%n", cartaoDeCredito.getSaldo());
             }
 
             if (cartaoDeCredito.getSaldo() != 0){
@@ -47,9 +48,13 @@ public class Principal {
         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
         System.out.println("compras realizadas com sucesso\n");
         for(Compra compra : cartaoDeCredito.getCompras()){
-            System.out.println(compra.getProduto() + " - " + compra.getPreco() + " - " + compra.getQuantidade() + " Total: " + compra.getPreco()*compra.getQuantidade());
+            System.out.printf("%s - %.2f - %d Total: %.2f%n",
+                    compra.getProduto(),
+                    compra.getPreco(),
+                    compra.getQuantidade(),
+                    compra.getPreco() * compra.getQuantidade());
         }
-        System.out.println("\no resante do credito é de: " + cartaoDeCredito.getSaldo());
+        System.out.printf("\nO restante do crédito é de: %.2f%n", cartaoDeCredito.getSaldo());
         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
 
 

@@ -1,4 +1,4 @@
-package br.com.mathew.List.desafioFInal.model;
+package br.com.mathew.listasEColecoesDeDados.desafioFinal.model;
 
 import java.util.ArrayList;
 import java.util.List;

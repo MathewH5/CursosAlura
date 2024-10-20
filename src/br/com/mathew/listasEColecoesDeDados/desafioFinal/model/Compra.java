@@ -1,4 +1,4 @@
-package br.com.mathew.List.desafioFInal.model;
+package br.com.mathew.listasEColecoesDeDados.desafioFinal.model;
 
 public class Compra {
     private String produto;
