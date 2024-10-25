@@ -35,5 +35,12 @@ public class Compra {
         this.quantidade = quantidade;
     }
 
-
+    @Override
+    public String  toString() {
+        return "Compra{" +
+                "produto='" + produto + '\'' +
+                ", preco=" + preco +
+                ", quantidade=" + quantidade +
+                '}';
+    }
 }
