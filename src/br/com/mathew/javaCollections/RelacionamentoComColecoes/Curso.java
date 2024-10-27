@@ -1,16 +1,16 @@
 package br.com.mathew.javaCollections.RelacionamentoComColecoes;
 
 import br.com.mathew.javaCollections.ListaEObjeto.Aula;
+import br.com.mathew.javaCollections.oPoderDosSets.Aluno;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Curso {
 
     private String nome;
     private String instrutor;
-    private List<Aula> aulas = new ArrayList<Aula>();
+    private List<Aula> aulas = new LinkedList<>();
+    private Set<Aluno> alunos = new HashSet<>();
 
     public Curso(String nome, String instrutor) {
         this.nome = nome;
@@ -40,5 +40,13 @@ public class Curso {
                 ", instrutor='" + instrutor + '\'' +
                 ", aulas=" + aulas +
                 '}';
+    }
+
+    public void matricula(Aluno aluno) {
+        this.alunos.add(aluno);
+    }
+
+    public Set<Aluno> getAlunos() {
+        return alunos;
     }
 }
