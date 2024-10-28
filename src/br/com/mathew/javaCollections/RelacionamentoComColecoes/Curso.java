@@ -49,4 +49,8 @@ public class Curso {
     public Set<Aluno> getAlunos() {
         return alunos;
     }
+
+    public boolean estaMatriculado(Aluno aluno) {
+        return this.alunos.contains(aluno);
+    }
 }

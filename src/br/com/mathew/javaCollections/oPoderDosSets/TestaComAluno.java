@@ -24,5 +24,18 @@ public class TestaComAluno {
             System.out.println(a);
         });
 
+        System.out.println("o aluno " +a1.getNome() +" está matriculado?");
+        System.out.println(javaColecoes.estaMatriculado(a1));
+
+        Aluno lucas = new Aluno("lucas silva", 5482);
+        System.out.println(javaColecoes.estaMatriculado(lucas));
+
+        System.out.println("o a1 é equals ao lucas");
+        System.out.println(a2.equals(lucas));
+
+        //obrigatoriamente o seguinte é true
+
+        System.out.println(a2.hashCode() == lucas.hashCode());
+
     }
 }
