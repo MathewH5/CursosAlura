@@ -3,7 +3,7 @@ package br.com.mathew.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ex1 {
+public class ex1_TwoSum1 {
     public int[] twoSum(int[] nums, int target) {
 
         //cria um pares chave/valor
