@@ -9,11 +9,11 @@ HashMap<Integer, Integer> mapa = new HashMap<>();
 
 //Um HashMap é uma estrutura de dados do Java que guarda pares chave → valor, como uma tabela de busca rápida.
 
-
-    chave → valor
-        5   → 0
-        7   → 2
-        11  → 3
+//
+//    chave → valor
+//        5   → 0
+//        7   → 2
+//        11  → 3
 
 //    Serve para você:
 //
